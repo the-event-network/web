@@ -1,4 +1,4 @@
 # The Event Network
 
-[Android app repository](https://github.com/alba-97/ceibo-front)  
-[Backend repository](https://github.com/alba-97/ceibo-back)
+[Android app repository](https://github.com/the-event-network/ui)  
+[Backend repository](https://github.com/the-event-network/api)
