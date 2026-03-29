@@ -1,130 +1,18 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>The Event Network</title>
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/img/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="all,follow" />
-    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="css/modal-video.min.css" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Nunito:400,600,800&amp;display=swap"
-    />
-    <link rel="stylesheet" href="css/device-mockups.css" />
-    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet" />
-    <link rel="stylesheet" href="css/custom.css" />
-    <link rel="shortcut icon" href="img/favicon.png" />
+    <meta name="description" content="Plan, invite, share, and fund your events — all from one place." />
+    <title>The Event Network</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700;800&family=Nunito:wght@400;600;800&display=swap" rel="stylesheet" />
   </head>
-  <body style="background-color: #433055">
-    <header class="header">
-      <nav
-        class="navbar navbar-light navbar-expand-lg fixed-top custom-navbar"
-        id="navbar"
-      >
-        <div class="container">
-          <a class="navbar-brand" href="index.html"
-            ><h1 class="text-logo">The Event Network</h1></a
-          >
-          <button
-            class="navbar-toggler navbar-toggler-end"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <i class="fas fa-bars" style="color: white"></i>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link link-scroll text-white" href="index.html"
-                  >Home</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link link-scroll text-white" href="about.html"
-                  >About</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link link-scroll text-white" href="download.html"
-                  >Download</a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
-    <section
-      class="hero bg-top pt-5"
-      id="hero"
-      style="
-        background: url(img/banner-4.png) no-repeat;
-        background-size: 100% 80%;
-      "
-    >
-      <div class="container pt-5">
-        <div class="row pt-5">
-          <div class="col-lg-5 pt-5">
-            <h1 class="text-white">The Event Network</h1>
-            <p class="my-4 text-white">
-              The Event Network aims to simplify the organization of social
-              events. Whether you're planning a birthday party, a friends'
-              gathering, or a conference, this app will allow you to manage,
-              share, and fund the event with your contacts.
-            </p>
-            <ul class="list-inline mb-0">
-              <li class="list-inline-item mb-2 mb-lg-0">
-                <a class="btn btn-primary btn-lg px-4" href="download.html">
-                  <i class="fab fa-android me-3"></i>Download</a
-                >
-              </li>
-            </ul>
-          </div>
-          <div class="col-lg-6 ml-auto">
-            <div class="device-wrapper mx-auto">
-              <div
-                class="device"
-                data-orientation="portrait"
-                data-color="black"
-              >
-                <div>
-                  <img src="img/mobile.png" alt="" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <a class="scroll-top-btn" id="scrollTop" href="#!"
-      ><i class="fas fa-long-arrow-alt-up"></i
-    ></a>
-    <footer class="with-pattern-1 pt-5">
-      <div class="copyrights">
-        <div class="container text-center py-4">
-          <p class="mb-0 text-white text-sm">
-            &copy; 2023, all rights reserved
-          </p>
-        </div>
-      </div>
-    </footer>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/swiper-bundle.min.js"></script>
-    <script src="js/modal-video.js"></script>
-    <script src="js/front.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
-      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
-      crossorigin="anonymous"
-    />
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
